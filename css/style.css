@@ -456,61 +456,47 @@ table {
 .heading{
   font-style: normal;
   font-weight: 900;
-  color: #252525;
+  color: #ffffff;;
 }
+
 .h1 {
   font-size: 56px;
   line-height: 1;
 }
 
 .h2 {
-  font-style: normal;
-  font-weight: 900;
   font-size: 42px;
   line-height: 1.14;
   /* or 114% */
   /* /Neutral/Gray 1 */
-  color: #252525;
 }
 
 .h3 {
-  font-style: normal;
-  font-weight: 900;
   font-size: 36px;
   line-height: 1.17;
   /* or 117% */
   /* /Neutral/Gray 1 */
-  color: #252525;
 }
 
 .h4 {
-  font-style: normal;
-  font-weight: 900;
   font-size: 30px;
   line-height: 1.2;
   /* or 120% */
   /* /Neutral/Gray 1 */
-  color: #252525;
 }
 
 .h5 {
-  font-style: normal;
-  font-weight: 900;
   font-size: 24px;
   line-height: 1.25;
   /* or 125% */
   /* /Neutral/Gray 1 */
-  color: #252525;
 }
 
 .h6 {
-  font-style: normal;
-  font-weight: 900;
   font-size: 19px;
   line-height: 1.37;
   /* or 137% */
   /* /Neutral/Gray 1 */
-  color: #252525;
 }
 
 .subtitle {
@@ -589,7 +575,7 @@ table {
   letter-spacing: 2.5px;
   text-transform: uppercase;
   /* /Neutral/Gray 1 */
-  color: #252525;
+  color: #ffffff;
 }
 /* TEXT STYLES END*/
 
@@ -669,6 +655,9 @@ button{
   } */
 
 /* COMMON STYLES END */
+
+/* HEADER START*/
+
 /* 
 Заготовка modernizr
 
@@ -699,7 +688,6 @@ button{
   align-items: center;
   margin-bottom: 28px;
 }
-
 
 
 /* .button-top-navbar::after {
@@ -743,6 +731,9 @@ button{
   color: #000000;
 }
 
+/* HEADER END */
+
+/* MAIN - MAIN OFFER START*/
 .main-offer {
   background: url(../img/main_offer_bg.png) no-repeat 50% / cover, #29c3be; /*докрутить картинку, чтобы не копировалась */
   padding-top: 280px;
@@ -753,29 +744,43 @@ button{
   color: #ffffff;
 }
 
-
 .offer-btn {
   margin-top: 48px;
 }
 
-/* .about-us, .promise {
-  background-color: #F5F5F5;
-} */
+/* MAIN - MAIN OFFER END */
 
-/* .about-us-box>.h2 {
-  color: #FFFFFF;
-} */
-.about-us {
-  
-}
-.about-us-box {
-  min-height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* MAIN - WHO WE ARE START */
+.who-we-are {
   margin-top: -80px;
+}
+.who-we-are > .container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 87px;
   border-radius: 40px;
 }
+
+.who-we-are-overline{
+  margin-top: 90px;
+}
+
+.who-we-are-heading {
+  margin: 42px 0px;
+}
+
+.who-we-are-text {
+  margin-bottom: 60px;
+}
+
+.who-we-are-picture {
+  width: 100%
+  height: auto;
+  border-radius: 40px;
+  margin-bottom: -120px;
+}
+
+/* MAIN - WHO WE ARE END */
 .promise-box {
   min-height: 308px;
 }
