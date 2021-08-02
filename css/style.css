@@ -781,9 +781,14 @@ button{
 }
 
 /* MAIN - WHO WE ARE END */
+
+/* MAIN - PROMISE START */
 .promise-box {
   min-height: 308px;
 }
+
+
+/* MAIN - PROMISE END */
 
 .lower-offer {
   min-height: 500px;
